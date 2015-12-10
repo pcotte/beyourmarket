@@ -15,7 +15,7 @@ namespace BeYourMarket.Model.Models
         {
             get
             {
-                return Price.HasValue ? (int)Math.Round(Price.Value, 2) * 100 : 0;
+                return Price.HasValue ? (int)(Math.Round(Price.Value, 2) * 100) : 0;
             }
         }
 
