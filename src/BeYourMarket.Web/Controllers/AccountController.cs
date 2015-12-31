@@ -244,7 +244,7 @@ namespace BeYourMarket.Web.Controllers
                     UserFrom = administrator.UserId,
                     UserTo = user.Id,
                     Subject = HttpContext.ParseAndTranslate(string.Format("[[[Welcome to {0}!]]]", CacheHelper.Settings.Name)),
-                    Body = HttpContext.ParseAndTranslate(string.Format("[[[Hi, Welcome to {0}! I am happy to assist you if you has any questions.]]]", CacheHelper.Settings.Name))
+                    Body = HttpContext.ParseAndTranslate(string.Format("[[[Hi, Welcome to {0}! I am happy to assist you if you have any questions.]]]", CacheHelper.Settings.Name))
 
                 };
 
